@@ -1,0 +1,39 @@
+.container {
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.container h3 {
+    color: #fff;
+    font-family: Outfit;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: .117px;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.header-section {
+    display: flex;
+    width: calc(100% - 40px);
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.cards_section {
+    width: calc(100% - 40px);
+    position: relative;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+
+.cards_section:not(:last-child) {
+    border-bottom: 1px solid #ffffff40;
+    margin-bottom: 40px;
+}

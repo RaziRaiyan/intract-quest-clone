@@ -1,0 +1,7 @@
+._maxWidthSectionConainer {
+    max-width: 1284px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    width: 100%;
+    position: relative;
+}
